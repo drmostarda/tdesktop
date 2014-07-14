@@ -14,293 +14,295 @@ GNU General Public License for more details.
 
 Full license: https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE
 Copyright (c) 2014 John Preston, https://tdesktop.com
+
+Translation for Brazillian Portuguese by David Milsted
+
 */
 direction: "LTR";
 
 lng_maintitle: "Telegram D";
 
-lng_menu_contacts: "Contacts";
-lng_menu_settings: "Settings";
-lng_menu_about: "About";
+lng_menu_contacts: "Contatos";
+lng_menu_settings: "Configurações";
+lng_menu_about: "Sobre";
 
-lng_open_from_tray: "Open Telegram";
-lng_quit_from_tray: "Quit Telegram";
-lng_tray_icon_text: "Telegram is still running here,
-you can change this from settings page.
+lng_open_from_tray: "Abrir o Telegram";
+lng_quit_from_tray: "Sair do Telegram";
+lng_tray_icon_text: "Telegram ainda está sendo executado, você pode mudar isto nas configurações.
 
-If this icon disappears from tray menu,
-you can drag it back here from hidden icons.";
+Se este ícone desaparecer da bandeja
+você pode fazê-lo voltar aqui reexibindo os ícones ocultos.";
 
-lng_month1: "January";
-lng_month2: "February";
-lng_month3: "March";
-lng_month4: "April";
-lng_month5: "May";
-lng_month6: "June";
-lng_month7: "July";
-lng_month8: "August";
-lng_month9: "September";
-lng_month10: "October";
-lng_month11: "November";
-lng_month12: "December";
+lng_month1: "Janeiro";
+lng_month2: "Fevereiro";
+lng_month3: "Março";
+lng_month4: "Abril";
+lng_month5: "Maio";
+lng_month6: "Junho";
+lng_month7: "Julho";
+lng_month8: "Agosto";
+lng_month9: "Setembro";
+lng_month10: "Outubro";
+lng_month11: "Novembro";
+lng_month12: "Dezembro";
 
-lng_weekday1: "Mon";
-lng_weekday2: "Tue";
-lng_weekday3: "Wed";
-lng_weekday4: "Thu";
-lng_weekday5: "Fri";
-lng_weekday6: "Sat";
-lng_weekday7: "Sun";
+lng_weekday1: "Seg";
+lng_weekday2: "Ter";
+lng_weekday3: "Qua";
+lng_weekday4: "Qui";
+lng_weekday5: "Sex";
+lng_weekday6: "Sab";
+lng_weekday7: "Dom";
 
 lng_month_day: "{month} {day}";
 
-lng_cancel: "Cancel";
-lng_continue: "Continue";
-lng_connecting: "Connecting...";
-lng_reconnecting: "Reconnect in %1 s...";
-lng_reconnecting_try_now: "Try now";
+lng_cancel: "Cancelar";
+lng_continue: "Continuar";
+lng_connecting: "Conectando...";
+lng_reconnecting: "Reconectando em %1 s...";
+lng_reconnecting_try_now: "Tentar agora";
 
 lng_status_offline: "offline";
-lng_status_invisible: "invisible";
-lng_status_lastseen: "last seen {when}";
-lng_status_lastseen_now: "just now";
-lng_status_lastseen_minute: "%1 minute ago";
-lng_status_lastseen_minutes: "%1 minutes ago";
-lng_status_lastseen_hour: "%1 hour ago";
-lng_status_lastseen_hours: "%1 hours ago";
-lng_status_lastseen_today: "today at {time}";
-lng_status_lastseen_yesterday: "yesterday at {time}";
+lng_status_invisible: "invisível";
+lng_status_lastseen: "visto pela última vez {when}";
+lng_status_lastseen_now: "agora";
+lng_status_lastseen_minute: "%1 minuto atrás";
+lng_status_lastseen_minutes: "%1 minutos atrás";
+lng_status_lastseen_hour: "%1 hora atrás";
+lng_status_lastseen_hours: "%1 horas atrás";
+lng_status_lastseen_today: "hoje às {time}";
+lng_status_lastseen_yesterday: "ontem às {time}";
 lng_status_lastseen_date: "{date}";
 lng_status_online: "online";
 
-lng_chat_no_members: "Group is unaccessible";
-lng_chat_members: "%1 members";
-lng_chat_members_online: "%1 members, %2 online";
+lng_chat_no_members: "Grupo inacessível";
+lng_chat_members: "%1 membros";
+lng_chat_members_online: "%1 membros, %2 online";
 
-lng_server_error: "Internal server error.";
-lng_flood_error: "Too much tries. Please try again later.";
-lng_deleted: "Unknown";
+lng_server_error: "Erro interno de servidor.";
+lng_flood_error: "Muitas tentativas executadas. Por favor tente novamente mais tarde.";
+lng_deleted: "Desconhecido";
 
-lng_intro1: "Welcome to an unofficial [b]desktop[/b] client
-of [b]Telegram[/b] mobile messenger.";
-lng_intro2: "Visit [a href=\"https://telegram.org/\"]telegram.org[/a] to learn more.";
-lng_start_msgs: "Start Messaging";
+lng_intro1: "Bem vindo ao cliente [b]desktop[/b] não-oficial 
+do [b]Telegram[/b] mobile messenger.";
+lng_intro2: "Visite [a href=\"https://telegram.org/\"]telegram.org[/a] (em inglês) para mais informações.";
+lng_start_msgs: "Começar!";
 
-lng_intro_back: "Back";
-lng_intro_next: "Next";
-lng_intro_finish: "Finish";
+lng_intro_back: "Voltar";
+lng_intro_next: "Próximo";
+lng_intro_finish: "Concluir";
 
-lng_phone_ph: "Your phone number";
-lng_phone_title: "Your Phone";
-lng_phone_desc: "Please confirm your country code and
-enter your phone number.";
-lng_phone_notreg: "Note: if you don't have a Telegram account yet,
-please [b]sign up[/b] with your [a href=\"https://telegram.org/\"]iOS / Android[/a] or {signup}here »{/signup}";
-lng_country_code: "Country Code";
-lng_bad_country_code: "Invalid Country Code";
-lng_country_ph: "Search";
-lng_country_done: "Done";
-lng_country_none: "Country not found";
-lng_country_select: "Select Country";
+lng_phone_ph: "Seu número de telefone";
+lng_phone_title: "Seu telefone";
+lng_phone_desc: "Por favor confirme seu código de país e
+insira o número do seu telefone.";
+lng_phone_notreg: "Nota: se você não tem uma conta Telegram ainda,
+por favor [b]cadastre-se[/b] com seu [a href=\"https://telegram.org/\"]iOS / Android[/a] ou {signup}aqui »{/signup}";
+lng_country_code: "Código do país";
+lng_bad_country_code: "Código do país inválido";
+lng_country_ph: "Pesquisar";
+lng_country_done: "Pronto";
+lng_country_none: "País não encontrado";
+lng_country_select: "Escolha seu país";
 
-lng_code_ph: "Your code";
-lng_code_desc: "We have sent you an SMS with activation
-code to your phone. Please enter it below.";
-lng_code_call: "Telegram will dial your number in %1:%2";
-lng_code_calling: "Requesting a call from Telegram...";
-lng_code_called: "Telegram dialed your number";
+lng_code_ph: "Seu código";
+lng_code_desc: "Enviamos para você um SMS com o código
+de ativação. Por favor insira-o abaixo.";
+lng_code_call: "Telegram irá ligar para você em %1:%2";
+lng_code_calling: "Solicitando a ligação do Telegram...";
+lng_code_called: "Telegram está ligando para você";
 
-lng_bad_phone: "Invalid phone number. Please try again.";
-lng_bad_phone_noreg: "Phone number not registered.";
-lng_bad_code: "You have entered an invalid code. Please try again.";
-lng_bad_name: "Please enter your first and last name.";
-lng_bad_chat_title: "Please enter new chat title.";
-lng_bad_photo: "Bad image selected.";
+lng_bad_phone: "Telefone inválido, por favor tente novamente.";
+lng_bad_phone_noreg: "Número de telefone não registrado.";
+lng_bad_code: "Você inseriu um código inválido. Por favor tente novamente.";
+lng_bad_name: "Por favor insira seu nome e sobrenome.";
+lng_bad_chat_title: "Por favor insira um nome para esta conversa.";
+lng_bad_photo: "A imagem selecionada é inválida.";
 
-lng_signup_title: "Information and photo";
-lng_signup_firstname: "First Name";
-lng_signup_lastname: "Last Name";
+lng_signup_title: "Informações e Foto";
+lng_signup_firstname: "Nome";
+lng_signup_lastname: "Sobrenome";
 
-lng_dlg_filter: "Search";
-lng_dlg_new_group_name: "Group name";
-lng_dlg_create_group: "Create";
+lng_dlg_filter: "Pesquisar";
+lng_dlg_new_group_name: "Nome do grupo";
+lng_dlg_create_group: "Criar";
 
-lng_settings_profile: "Profile";
-lng_settings_edit: "Edit";
-lng_settings_save: "Save";
-lng_settings_cancel: "Cancel";
-lng_settings_upload: "Set Profile Photo";
-lng_settings_badsize: "This image has bad size, please try other.";
-lng_settings_crop_profile: "Select square area for your profile photo";
-lng_settings_uploading_photo: "Uploading photo...";
+lng_settings_profile: "Perfil";
+lng_settings_edit: "Editar";
+lng_settings_save: "Salvar";
+lng_settings_cancel: "Cancelar";
+lng_settings_upload: "Inserir foto de perfil";
+lng_settings_badsize: "Esta imagem é muito grande, por favor tente outra.";
+lng_settings_crop_profile: "Por favor ajuste sua foto de perfil";
+lng_settings_uploading_photo: "Fazendo upload de sua foto...";
 
-lng_settings_section_notify: "Notifications";
-lng_settings_desktop_notify: "Desktop notifications";
-lng_settings_sound_notify: "Sound";
+lng_settings_section_notify: "Notificações";
+lng_settings_desktop_notify: "Notificações Desktop";
+lng_settings_sound_notify: "Som";
 
-lng_settings_section_general: "General";
-lng_settings_auto_update: "Update automatically";
-lng_settings_current_version: "Version {version}";
-lng_settings_check_now: "Check for updates";
-lng_settings_update_checking: "Checking for updates...";
-lng_settings_latest_installed: "Latest version is installed";
-lng_settings_downloading: "Downloading update {ready} / {total} Mb...";
-lng_settings_update_ready: "New version is ready";
-lng_settings_update_now: "Restart Now";
-lng_settings_update_fail: "Update check failed :(";
-lng_settings_workmode_tray: "Show tray icon";
-lng_settings_workmode_window: "Show taskbar icon";
-lng_settings_auto_start: "Launch Telegram when system starts";
-lng_settings_start_min: "Launch minimized";
-lng_settings_scale_label: "Interface scale";
+lng_settings_section_general: "Gerais";
+lng_settings_auto_update: "Atualizar automaticamente";
+lng_settings_current_version: "Versão {version}";
+lng_settings_check_now: "Verificar se há atualizações";
+lng_settings_update_checking: "Verificando atualizações...";
+lng_settings_latest_installed: "A última versão está instalada";
+lng_settings_downloading: "Baixando atualizações {ready} / {total} Mb...";
+lng_settings_update_ready: "Nova versão pronta para instalar";
+lng_settings_update_now: "Reiniciar o programa agora!";
+lng_settings_update_fail: "Não foi possível verificar atualizações :(";
+lng_settings_workmode_tray: "Mostrar ícone na bandeja";
+lng_settings_workmode_window: "Mostrar ícone na barra de tarefas";
+lng_settings_auto_start: "Iniciar Telegram junto do Windows";
+lng_settings_start_min: "Iniciar minimizado";
+lng_settings_scale_label: "Tamanho da interface";
 lng_settings_scale_auto: "Auto ({cur})";
 
-lng_settings_section_chat: "Chat options";
-lng_settings_replace_emojis: "Replace emojis";
-lng_settings_view_emojis: "View list";
-lng_settings_emoji_list: "List of supported emojis";
-lng_settings_send_enter: "Send by Enter";
-lng_settings_send_ctrlenter: "Send by Ctrl+Enter";
-lng_settings_send_cmdenter: "Send by Cmd+Enter";
-lng_settings_cats_and_dogs: "Allow cats and dogs";
+lng_settings_section_chat: "Opções de conversa";
+lng_settings_replace_emojis: "Trocar texto por emojis";
+lng_settings_view_emojis: "Ver lista";
+lng_settings_emoji_list: "Lista de emojis suportados";
+lng_settings_send_enter: "Enviar com Enter";
+lng_settings_send_ctrlenter: "Enviar com Ctrl+Enter";
+lng_settings_send_cmdenter: "Enviar com Cmd+Enter";
+lng_settings_cats_and_dogs: "Permitir gatos e cachorros";
 
-lng_download_path_dont_ask: "Don't ask download path for each file";
-lng_download_path_label: "Download path: ";
-lng_download_path_temp: "temp folder";
-lng_download_path_clear: "Clear All";
-lng_download_path_header: "Choose download path";
-lng_download_path_temp_radio: "Temp folder, cleared on logout or uninstall";
-lng_download_path_dir_radio: "Custom folder, cleared only manually";
-lng_download_path_choose: "Choose download path";
-lng_sure_clear_downloads: "Do you want to remove all downloaded files from temp folder? It is done automatically on logout or program uninstall.";
-lng_download_path_failed: "File download could not be started. It could happen because of a bad download location.
+lng_download_path_dont_ask: "Não solicitar pasta de download para cada arquivo";
+lng_download_path_label: "Pasta de download: ";
+lng_download_path_temp: "pasta temporária";
+lng_download_path_clear: "Limpar tudo";
+lng_download_path_header: "Escolher pasta de download";
+lng_download_path_temp_radio: "Pasta de download, limpeza ao deslogar ou desinstalar";
+lng_download_path_dir_radio: "Pasta selecionada pelo usuário, apenas limpeza manual";
+lng_download_path_choose: "Escolher pasta de download";
+lng_sure_clear_downloads: "Você deseja apagar todos os arquivos baixados da pasta temporária? Isto é feito automaticamente ao deslogar ou desinstalar o programa.";
+lng_download_path_failed: "Não foi possível iniciar o download. Isto pode ter acontecido por falha ao salvar na pasta de download.
 
-You can change download path in Settings.";
-lng_download_path_settings: "Go to Settings";
-lng_download_finish_failed: "File download could not be finished.
+Você pode mudar a pasta de download nas Configurações.";
+lng_download_path_settings: "Ir para Configurações";
+lng_download_finish_failed: "O download do arquivo não pode ser finalizado.
 
-Would you like to try again?";
-lng_download_path_clearing: "Clearing...";
-lng_download_path_cleared: "Cleared!";
-lng_download_path_clear_failed: "Clear failed :(";
+Deseja tentar novamente?";
+lng_download_path_clearing: "Efetuando limpeza...";
+lng_download_path_cleared: "Limpeza efetuada!";
+lng_download_path_clear_failed: "Não foi possível efetuar a limpeza :(";
 
-lng_settings_section_advanced: "Advanced";
-lng_connection_type: "Connection type:";
-lng_connection_auto_connecting: "Default (connecting..)";
-lng_connection_auto: "Default ({type} used)";
-lng_connection_http_proxy: "HTTP with proxy";
-lng_connection_tcp_proxy: "TCP with proxy";
-lng_connection_header: "Connection type";
-lng_connection_auto_rb: "Auto (TCP if available or HTTP)";
-lng_connection_http_proxy_rb: "HTTP with custom http-proxy";
-lng_connection_tcp_proxy_rb: "TCP with custom socks5-proxy";
+lng_settings_section_advanced: "Avançado";
+lng_connection_type: "Tipo de conexão:";
+lng_connection_auto_connecting: "Padrão (conectando..)";
+lng_connection_auto: "Padrão ({type} utilizado)";
+lng_connection_http_proxy: "HTTP com proxy";
+lng_connection_tcp_proxy: "TCP com proxy";
+lng_connection_header: "Tipo de Conexão";
+lng_connection_auto_rb: "Auto (TCP se disponível ou HTTP)";
+lng_connection_http_proxy_rb: "HTTP com http-proxy personalizado";
+lng_connection_tcp_proxy_rb: "TCP com socks5-proxy personalizado";
 lng_connection_host_ph: "Hostname";
-lng_connection_port_ph: "Port";
-lng_connection_user_ph: "Username";
-lng_connection_password_ph: "Password";
-lng_connection_save: "Save";
-lng_settings_reset: "Reset other sessions";
-lng_settings_reset_done: "Sessions reset done";
-lng_settings_logout: "Log Out";
+lng_connection_port_ph: "Porta";
+lng_connection_user_ph: "Usuário";
+lng_connection_password_ph: "Senha";
+lng_connection_save: "Salvar";
+lng_settings_reset: "Reiniciar outras sessões";
+lng_settings_reset_done: "Reinicializações de sessão concluída";
+lng_settings_logout: "Deslogar";
 
-lng_settings_need_restart: "You need to restart for applying
-some of the new settings. Restart now?";
-lng_settings_restart_now: "Restart";
-lng_settings_restart_later: "Later";
+lng_settings_need_restart: "Você precisa reiniciar para
+aplicar as modificações. Reiniciar agora?";
+lng_settings_restart_now: "Reiniciar";
+lng_settings_restart_later: "Depois";
 
-lng_profile_settings_section: "Settings";
-lng_profile_participants_section: "Participants";
-lng_profile_info: "Contact info";
-lng_profile_group_info: "Group info";
-lng_profile_add_contact: "Add Contact";
-lng_profile_edit_contact: "Edit";
-lng_profile_edit_group: "Edit";
-lng_profile_phone: "Phone number: {phone}";
-lng_profile_enable_notifications: "Notifications";
-lng_profile_clear_history: "Clear history";
-lng_profile_send_message: "Send Message";
-lng_profile_share_contact: "Share Contact";
-lng_profile_delete_contact: "Delete";
-lng_profile_set_group_photo: "Set Photo";
-lng_profile_add_participant: "Add Member";
-lng_profile_delete_and_exit: "Leave";
-lng_profile_kick: "Kick";
-lng_profile_sure_kick: "Kick {user} from the group?";
-lng_profile_loading: "Loading...";
+lng_profile_settings_section: "Configurações";
+lng_profile_participants_section: "Participantes";
+lng_profile_info: "Informações do contato";
+lng_profile_group_info: "informações do grupo";
+lng_profile_add_contact: "Adicionar contato";
+lng_profile_edit_contact: "Editar";
+lng_profile_edit_group: "Editar";
+lng_profile_phone: "Telefone: {phone}";
+lng_profile_enable_notifications: "Notificações";
+lng_profile_clear_history: "Limpar histórico";
+lng_profile_send_message: "Enviar mensagem";
+lng_profile_share_contact: "Compartilhar contato";
+lng_profile_delete_contact: "Deletar";
+lng_profile_set_group_photo: "Configurar foto";
+lng_profile_add_participant: "Adicionar membro";
+lng_profile_delete_and_exit: "Deixar grupo";
+lng_profile_kick: "Banir";
+lng_profile_sure_kick: "Deseja banir {user} do grupo?";
+lng_profile_loading: "Carregando...";
 
-lng_participant_filter: "Search";
-lng_participant_invite: "Invite";
-lng_create_new_group: "New Group";
-lng_create_group_next: "Next";
-lng_create_group_title: "New Group";
+lng_participant_filter: "Pesquisar";
+lng_participant_invite: "Convidar";
+lng_create_new_group: "Novo grupo";
+lng_create_group_next: "Próximo";
+lng_create_group_title: "Novo grupo";
 
-lng_sure_delete_contact: "Are you sure, you want to delete {contact} from your contact list?";
-lng_sure_delete_history: "Are you sure, you want to delete all message history with {contact}?
+lng_sure_delete_contact: "Tem certeza que deseja excluir {contact} da sua lista de contatos?";
+lng_sure_delete_history: "Tem certeza que deseja excluir toda a conversa com {contact}?
 
-This action cannot be undone.";
+Isto não pode ser desfeito.";
 
-lng_sure_delete_and_exit: "Are you sure, you want to delete all message history and leave «{group}»?
+lng_sure_delete_and_exit: "Tem certeza que deseja apagar todas as mensagens e deixar o grupo «{group}»?
 
-This action cannot be undone.";
+Isto não pode ser desfeito.";
 
-lng_sure_enable_debug: "Do you want to enable DEBUG mode?
+lng_sure_enable_debug: "Deseja ativar modo de DEBUG?
 
-All network events will be logged.";
+Todos os eventos de rede serão guardados em um log";
 
-lng_message_empty: "(empty)";
+lng_message_empty: "(vazio)";
 
-lng_action_add_user: "{from} added {user}";
-lng_action_kick_user: "{from} kicked {user}";
-lng_action_user_left: "{from} left the group";
-lng_action_user_joined: "{from} joined the group";
-lng_action_user_photo: "{from} added a new profile photo";
-lng_action_user_registered: "{from} just joined Telegram";
-lng_action_removed_photo: "{from} removed group photo";
-lng_action_changed_photo: "{from} changed group photo";
-lng_action_changed_title: "{from} changed group name to «{title}»";
-lng_action_created_chat: "{from} created group «{title}»";
-lng_action_checked_in: "{from} checked in";
+lng_action_add_user: "{from} adicionou {user}";
+lng_action_kick_user: "{from} baniu {user}";
+lng_action_user_left: "{from} deixou o grupo";
+lng_action_user_joined: "{from} juntou-se ao grupo";
+lng_action_user_photo: "{from} adicionou uma nova foto de perfil";
+lng_action_user_registered: "{from} entrou para o Telegram :)";
+lng_action_removed_photo: "{from} removeu a foto do grupo";
+lng_action_changed_photo: "{from} modificou a foto do grupo";
+lng_action_changed_title: "{from} mudou o nome do grupo para «{title}»";
+lng_action_created_chat: "{from} criou o grupo «{title}»";
+lng_action_checked_in: "{from} apresentou-se";
 
-lng_forwarded_from: "Forwarded from ";
+lng_forwarded_from: "A partir de ";
 
-lng_attach_failed: "Failed";
-lng_attach_file: "File";
-lng_attach_photo: "Photo";
+lng_attach_failed: "Falha";
+lng_attach_file: "Arquivo";
+lng_attach_photo: "Foto";
 
-lng_media_open_with: "Open With";
+lng_media_open_with: "Abrir com";
 lng_media_download: "Download";
-lng_media_cancel: "Cancel";
+lng_media_cancel: "Cancelar";
 lng_media_video: "Video";
 lng_media_audio: "Audio";
 
-lng_in_dlg_photo: "Photo";
+lng_in_dlg_photo: "Foto";
 lng_in_dlg_video: "Video";
-lng_in_dlg_geo: "Map";
-lng_in_dlg_contact: "Contact";
+lng_in_dlg_geo: "Mapa";
+lng_in_dlg_contact: "Contato";
 lng_in_dlg_audio: "Audio";
-lng_in_dlg_document: "File";
+lng_in_dlg_document: "Arquivo";
 
-lng_send_button: "Send";
-lng_message_ph: "Write a message...";
+lng_send_button: "Enviar";
+lng_message_ph: "Escrever mensagem...";
 lng_empty_history: "";
-lng_willbe_history: "Please select chat to start messaging";
+lng_willbe_history: "Por favor selecione uma conversa para começar";
 lng_message_with_from: "[c]{from}:[/c] {message}";
-lng_from_you: "You";
+lng_from_you: "Você";
 
-lng_typing: "typing";
-lng_user_typing: "{user} is typing";
-lng_users_typing: "{user1} and {user2} are typing";
-lng_many_typing: "{n} are typing";
-lng_unread_bar: "%1 unread messages";
+lng_typing: "digitando";
+lng_user_typing: "{user} está digitando";
+lng_users_typing: "{user1} e {user2} estão digitando";
+lng_many_typing: "{n} estão digitando";
+lng_unread_bar: "%1 mensagens não lidas";
 
-lng_maps_point: "Location";
-lng_save_photo: "Save image";
-lng_save_video: "Save video";
-lng_save_audio: "Save audio";
-lng_save_document: "Save document";
+lng_maps_point: "Local";
+lng_save_photo: "Salvar imagem";
+lng_save_video: "Salvar video";
+lng_save_audio: "Salvar audio";
+lng_save_document: "Salvar documento";
 lng_save_downloaded: "{ready} / {total} {mb}";
 lng_duration_and_size: "{duration}, {size}";
-lng_choose_images: "Choose images";
+lng_choose_images: "Escolher imagens";
 
 lng_context_open_link: "Open Link";
 lng_context_copy_link: "Copy Link";
